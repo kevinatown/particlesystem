@@ -39,18 +39,19 @@ Renders the background. Contains all konva objects and has Event Listener on win
 Takes no props, but renders [Sky](#sky) and [City](#city) child components.
 
 
-#### Sky
+### Sky
 
 A child component of BackgroundContainer. Renders a konva canvas element. Currently only renders a night sky, i.e. black background.
 
-**Props**
+**Props:**
+
 | Name      | Type                        |  Desciption
 |----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of outside component
 | width     | **number** *isRequired*     |  Width of outside component
 
 
-#### City
+### City
 
 A child component of BackgroundContainer. Renders a konva canvas element of procedural gernated [Building](#building) components and the ground.
 
@@ -62,7 +63,7 @@ A child component of BackgroundContainer. Renders a konva canvas element of proc
 | width     | **number** *isRequired*     |  Width of outside component
 
 
-#### Building
+### Building
 
 A child component of BackgroundContainer and City. Renders a konva Rect element.
 
