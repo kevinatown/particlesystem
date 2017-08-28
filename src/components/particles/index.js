@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 import Particles from 'react-particles-js';
 import Raindrop from '../images/rain_drop.png';
 import Snowflake from '../images/snowflake.png';
-// import { Raindrop, Snowflake } from '../images/images';
 import './style.css';
 
 const PartilceContainer = ({ params, style, play, weather, speed, wind }) => {
-  // console.log(Raindrop, Snowflake)
   params.particles.move.enable = play;
   params.particles.shape.image.src = weather === 'rain' ? Raindrop : Snowflake;
   params.particles.move.speed = speed;
