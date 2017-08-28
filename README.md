@@ -54,7 +54,8 @@ A child component of BackgroundContainer. Renders a konva canvas element. Curren
 
 A child component of BackgroundContainer. Renders a konva canvas element of procedural gernated [Building](#building) components and the ground.
 
-**Props**
+**Props:**
+
 | Name      | Type                        |  Desciption
 |----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of outside component
@@ -65,7 +66,8 @@ A child component of BackgroundContainer. Renders a konva canvas element of proc
 
 A child component of BackgroundContainer and City. Renders a konva Rect element.
 
-**Props**
+**Props:**
+
 | Name      | Type                        |  Desciption
 |----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of desidered Building component
@@ -78,7 +80,8 @@ A child component of BackgroundContainer and City. Renders a konva Rect element.
 
 Renders the toggable drawer and contains the form items for choosing weather, wind, precipitation rate, playing the animation, and creating a new procedural generated [BackgroundContainer](#backgroundcontainer).
 
-**Props**
+**Props:**
+
 | Name      | Type                        |  Desciption
 |----------|-----------------------------|--------------
 | values    | **object** *isRequired*     |  An object containing the values of: `['wind', 'weather', 'speed', 'play']`
@@ -91,6 +94,7 @@ Renders the toggable drawer and contains the form items for choosing weather, wi
 Renders the partilce canvas.
 
 **Props**
+
 | Name      | Type                        |  Desciption
 |----------|-----------------------------|--------------
 | params    | **object** *isRequired*     |  An object containing the parameters for the particle canvas
