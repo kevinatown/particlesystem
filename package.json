@@ -1,5 +1,6 @@
 {
   "name": "particlesystem",
+  "homepage": "https://kevinatown.github.io/particlesystem",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,10 +23,12 @@
     "build-css": "node-sass-chokidar --include-path ./src/common/scss src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src/common/scss src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
-    "build": "npm run build-css && react-scripts build"
+    "build": "npm run build-css && react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^2.9.1",
+    "gh-pages": "^1.0.0",
     "prop-types": "^15.5.10",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
