@@ -45,7 +45,7 @@ A child component of BackgroundContainer. Renders a konva canvas element. Curren
 
 **Props**
 | Name      | Type                        |  Desciption
-|---------- |-----------------------------|--------------
+|----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of outside component
 | width     | **number** *isRequired*     |  Width of outside component
 
@@ -56,7 +56,7 @@ A child component of BackgroundContainer. Renders a konva canvas element of proc
 
 **Props**
 | Name      | Type                        |  Desciption
-|---------- |-----------------------------|--------------
+|----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of outside component
 | width     | **number** *isRequired*     |  Width of outside component
 
@@ -67,7 +67,7 @@ A child component of BackgroundContainer and City. Renders a konva Rect element.
 
 **Props**
 | Name      | Type                        |  Desciption
-|---------- |-----------------------------|--------------
+|----------|-----------------------------|--------------
 | height    | **number** *isRequired*     |  Height of desidered Building component
 | width     | **number** *isRequired*     |  Width of desidered Building component
 | x         | **number** *isRequired*     |  X location of desidered Building component
@@ -80,7 +80,7 @@ Renders the toggable drawer and contains the form items for choosing weather, wi
 
 **Props**
 | Name      | Type                        |  Desciption
-|---------- |-----------------------------|--------------
+|----------|-----------------------------|--------------
 | values    | **object** *isRequired*     |  An object containing the values of: `['wind', 'weather', 'speed', 'play']`
 | createNewBackground  | **func** *isRequired*     |  Function to create a new background
 | handleChange         | **func** *isRequired*     |  Function to the value props
@@ -92,7 +92,7 @@ Renders the partilce canvas.
 
 **Props**
 | Name      | Type                        |  Desciption
-|---------- |-----------------------------|--------------
+|----------|-----------------------------|--------------
 | params    | **object** *isRequired*     |  An object containing the parameters for the particle canvas
 | style     | **object** *isRequired*     |  An object containing additonal styles for the outer `<div/>` of the canvas
 | play      | **bool** *isRequired*       |  Should the partilces be moving?
