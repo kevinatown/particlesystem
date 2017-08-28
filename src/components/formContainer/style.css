@@ -1,0 +1,8 @@
+.form-container {
+  z-index: 1000;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .form-container .drawer-container {
+    padding-top: 50px; }

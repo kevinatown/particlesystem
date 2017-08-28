@@ -1,0 +1,13 @@
+.form-container {
+	z-index: 1000;
+	// background-color: #BABABA;
+	width: 100vw;
+	// height: 50px;
+	position: absolute;
+    top: 0;
+    left: 0;
+
+    .drawer-container {
+    	padding-top: 50px;
+    }
+}
